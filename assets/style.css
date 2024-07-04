@@ -1,1 +1,8 @@
-/* This is a css file */
+body {
+  background-color: rgb(172, 249, 236);
+  align-items: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e4e1e1;
+}
