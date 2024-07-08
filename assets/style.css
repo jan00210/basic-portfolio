@@ -8,6 +8,7 @@
 body {
   background: rgb(1, 57, 87);
   align-items: center;
+  color: aliceblue;
 }
 
 .header {
@@ -16,7 +17,7 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: rgb(206, 236, 252);
+  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,4 +29,16 @@ body {
   color: black;
   font-weight: 500;
   margin-left: 30px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: rgb(232, 238, 241);
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10%;
 }
